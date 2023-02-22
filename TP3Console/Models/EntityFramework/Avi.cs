@@ -6,10 +6,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace TP3Console.Models.EntityFramework;
 
-[PrimaryKey("Film", "Utilisateur")]
 [Table("avis")]
 public partial class Avi
 {
+    
+
     [Key]
     [Column("film")]
     public int Film { get; set; }
